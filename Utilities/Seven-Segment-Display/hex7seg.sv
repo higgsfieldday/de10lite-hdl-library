@@ -58,4 +58,8 @@ module Hex7seg(
             HexSeg[7] = 1'b1; // Turn OFF the negative sign segment (dp)
         end
     end
+
 endmodule
+//============================
+// End of File
+//============================
