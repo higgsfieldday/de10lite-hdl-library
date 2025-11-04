@@ -10,14 +10,40 @@ This repository includes synthesizable designs, simulation testbenches, and hard
 The **DE10-Lite** is an Intel (formerly Altera) FPGA development and education platform featuring the **MAX 10 FPGA (10M50DAF484C7G)**.  
 It’s widely used in university and hobbyist settings for learning digital design, HDL coding, and FPGA development.
 
-**Key features:**
-- Intel MAX 10 FPGA (50K logic elements)
-- 50 MHz onboard clock
-- 7-segment displays (HEX0–HEX5)
-- 10 user switches, 10 LEDs, 2 pushbuttons
-- Arduino Uno–compatible headers
-- Onboard USB-Blaster II for programming and debugging
-- Powered via USB (no external supply required)
+### 🧩 Key Features
+
+#### FPGA Device
+- **Model:** Intel (Altera) MAX 10 – 10M50DAF484C7G  
+  - 50K logic elements (LEs)  
+  - 1,638 Kbit M9K block RAM (~204 KB)  
+  - 5,888 Kbit user flash memory (~736 KB)  
+  - 144 18×18 hardware multipliers (DSP blocks)  
+  - 4 PLLs (Phase-Locked Loops)  
+  - Dual on-chip ADCs (each with 1 dedicated analog input and up to 8 dual-function pins)
+
+#### Programming and Configuration
+- On-board **USB-Blaster II** (Type-B USB connector)
+
+#### Memory
+- **64 MB SDRAM**, 16-bit data bus
+
+#### Connectors
+- **2×20 GPIO header**
+- **Arduino Uno R3-compatible header**, including six ADC channels
+
+#### Display
+- **4-bit resistor-network DAC** for VGA output (15-pin high-density D-sub connector)
+
+#### Switches, Buttons, and LEDs
+- 10 user LEDs  
+- 10 slide switches  
+- 2 debounced push buttons  
+- 6 seven-segment displays (HEX0–HEX5)
+
+#### Power
+- 5V DC input via USB or external power connector
+
+---
 
 **Manufacturer:** [Terasic Technologies](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=1081)
 
