@@ -1,14 +1,3 @@
-/*
---------------------------------------------------------------
-Author:         Wesley Winter
-ASUID:          1229058430
-Course:         EEE 333 Digital Design, Fall 2025
-Assignment:     Lab 3: Universal Asynchronous Receive/Transmit (UART)
-File:           Bin2BCD_8bit.sv
-Last Edited:    10/19/2025
---------------------------------------------------------------
-*/
-
 //============================================================
 // Binary to Binary Coded Decimal Converter for 8-bit Input
 // [19:16]=hundreds
