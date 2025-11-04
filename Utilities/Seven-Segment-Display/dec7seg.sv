@@ -26,4 +26,8 @@ module Dec7seg(
             default: HexSeg = 7'b1111111; // blank
         endcase
     end
+
 endmodule
+//============================
+// End of File
+//============================
